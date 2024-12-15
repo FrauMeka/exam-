@@ -71,6 +71,14 @@ Make sure PostgreSQL is running on port `5432`, and the database name is set to 
 - **User Results:** Record and display user results for specific tests.
 
 ---
+## Database
+<img width="180" alt="Screenshot 2024-12-15 at 11 25 24 PM" src="https://github.com/user-attachments/assets/5bea311b-ecb7-4824-bb68-f91068bef228" />
+<img width="188" alt="Screenshot 2024-12-15 at 11 26 23 PM" src="https://github.com/user-attachments/assets/38c2c8dd-0544-422d-a1e6-65b4cdbc33cc" />
+<img width="193" alt=<img width="169" alt="Screenshot 2024-12-15 at 11 26 45 PM" src="https://github.com/user-attachments/assets/e7e01844-733a-487b-80ef-59d024e36e71" /><img width="216" alt="Scre<img width="194" alt="Screenshot 2024-12-15 at 11 27 12 PM" src="https://github.com/user-attachments/assets/46a18718-f278-4d8d-8482-4f3d02ba11d7" />
+enshot 2024-12-15 at 11 26 55 PM" src="https://github.com/user-attachments/assets/4d8fcc1c-db17-43a1-8737-8e15dff8b3a3" />
+
+"Screenshot 2024-12-15 at 11 26 33 PM" src="https://github.com/user-attachments/assets/e2685a3e-d119-4637-a36a-b7dd7a6cf780" />
+
 
 ## Notes
 - Ensure PostgreSQL is installed and running before launching the application.
