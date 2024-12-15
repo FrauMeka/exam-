@@ -87,8 +87,4 @@ Make sure PostgreSQL is running on port `5432`, and the database name is set to 
 - **Database Connection Error:** Ensure PostgreSQL is running on the correct port and the credentials in `DatabaseUtil.java` are correct.
 - **Dependencies Issue:** If using Maven, run `mvn clean install` to ensure all dependencies are downloaded.
 
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
