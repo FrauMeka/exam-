@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestDAO {
+public class TestDAO extends DAO{
 
     // Метод для получения тестов по subjectId
     public List<Test> findAllBySubjectId(int subjectId) {
@@ -28,6 +28,7 @@ public class TestDAO {
             default:
                 System.out.println("No tests available for the given subject ID.");
         }
+        super.save(tests);
 
         return tests;
     }

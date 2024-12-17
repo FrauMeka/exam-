@@ -6,7 +6,7 @@ import com.example.exemination_meka_true.util.DatabaseUtil;
 import java.sql.*;
 import java.util.Optional;
 
-public class UserDAO {
+public class UserDAO extends DAO{
 
     public Optional<User> findByUsername(String username) {
         try (Connection connection = DatabaseUtil.getConnection()) {
@@ -37,12 +37,14 @@ public class UserDAO {
             if (rs.next()) {
                 user.setId(rs.getInt(1));
             }
+            super.save(rs);
         } catch (SQLException e) {
             e.printStackTrace();
             System.out.println("SQL State: " + e.getSQLState());
             System.out.println("Error Code: " + e.getErrorCode());
             System.out.println("Message: " + e.getMessage());
         }
+
     }
 
 }

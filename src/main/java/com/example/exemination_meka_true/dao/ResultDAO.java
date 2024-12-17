@@ -1,7 +1,7 @@
 package com.example.exemination_meka_true.dao;
 
 import com.example.exemination_meka_true.model.Result;
-import com.example.exemination_meka_true.util.DatabaseUtil;
+
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ResultDAO {
+public class ResultDAO  extends DAO{
     private final Connection connection;
 
     public ResultDAO(Connection connection) {
@@ -34,9 +34,11 @@ public class ResultDAO {
                         rs.getInt("score")
                 ));
             }
+            super.save(rs);
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
         return results;
     }
 

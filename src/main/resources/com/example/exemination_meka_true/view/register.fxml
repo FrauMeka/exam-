@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.exemination_meka_true.controller.RegisterController"
-            style="-fx-background-color: #d9efd8;">
-    <Label text="REGISTER" layoutX="150" layoutY="50"
-           style="-fx-font-size: 18px; -fx-font-family: 'Arial'; -fx-text-fill: #006400;" />
-    <Label text="UserName:" layoutX="100" layoutY="100" style="-fx-font-size: 14px;" />
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="245.0" prefWidth="419.0" style="-fx-background-color: #d9efd8;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.exemination_meka_true.controller.RegisterController">
+    <Label layoutX="150" layoutY="50" style="-fx-font-size: 18px; -fx-font-family: 'Arial'; -fx-text-fill: #006400;" text="REGISTER" />
+    <Label layoutX="100" layoutY="100" style="-fx-font-size: 14px;" text="UserName:" />
     <TextField fx:id="usernameField" layoutX="180" layoutY="95" prefWidth="200" />
-    <Button text="Register" layoutX="180" layoutY="150" prefWidth="100"
-            style="-fx-background-color: #006400; -fx-text-fill: white;" onAction="#register" />
+    <Button layoutX="180" layoutY="150" onAction="#register" prefWidth="100" style="-fx-background-color: #006400; -fx-text-fill: white;" text="Register" />
 </AnchorPane>
